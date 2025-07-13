@@ -38,3 +38,34 @@ For casual chit-chat with others using the framework:
 ## Contributing
 
 If you're interested in contributing to Tailwind CSS, please read our [contributing docs](https://github.com/tailwindcss/tailwindcss/blob/main/.github/CONTRIBUTING.md) **before submitting a pull request**.
+
+# 📊 Spreadsheet-Style UI
+
+A modern, responsive spreadsheet-style UI built with **React 18**, **TypeScript**, **Tailwind CSS**, and **Vite**. Inspired by platforms like Airtable, this interface includes a functional toolbar, colored status and priority chips, tab navigation, a scrollable table, and action buttons.
+
+---
+
+## 🚀 Tech Stack
+
+- ⚛️ **React 18** (with Vite)
+- 🧠 **TypeScript** (strict mode)
+- 🎨 **Tailwind CSS** for utility-first styling
+- 🧮 **Custom Table Component** (no external grid library)
+- 📝 No external state management — uses local component state
+
+---
+
+## 📂 Features
+
+- Breadcrumb-style navigation header  
+- Icon-based **toolbar** (Hide fields, Sort, Filter, Cell view)  
+- Action buttons: **Import, Export, Share, New Action**
+- Color-coded **status** and **priority** chips  
+- Multiple **tab** buttons (e.g., Q3 Financial Overview, ABC, etc.)
+- Scrollable **data grid** with sticky headers  
+- Extra **empty rows** for spacing (like in Airtable or Excel)
+- Bottom **tab selector** (All Orders, Pending, Reviewed, etc.)
+- Mobile-friendly and responsive layout  
+
+---
+
